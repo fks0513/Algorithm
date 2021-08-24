@@ -6,9 +6,9 @@ public class String_6 {
 	public String solution(String str) {
 		String answer = "";
 		for(int i=0;i<str.length();i++) {
-			if(str.indexOf(str.charAt(i))==i) 
-				//indexOf : Æ¯Á¤ ¹®ÀÚ³ª ¹®ÀÚ¿­ÀÌ ¾Õ¿¡¼­ºÎÅÍ Ã³À½ ¹ß°ßµÇ´Â ÀÎµ¦½º¸¦ ¹ÝÈ¯
-				answer+=str.charAt(i);
+//			System.out.println(str.charAt(i)+" "+i+" "+str.indexOf(str.charAt(i)));
+			if(str.indexOf(str.charAt(i))==i)
+				answer += str.charAt(i); //ìžê¸° ë¬¸ìžì™€ ìœ„ì¹˜ê°€ ê°™ì€ ë¬¸ìžë§Œ ëˆ„ì 
 		}
 		return answer;
 	}
@@ -21,3 +21,4 @@ public class String_6 {
 	}
 
 }
+
